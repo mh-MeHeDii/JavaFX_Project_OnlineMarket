@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #00FFF; -fx-background-color: #D3D3D3;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HomeController">
+    <Text layoutX="14.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Healthy, Fresh and Pure = Online SuperMarket">
+        <font>
+            <Font name="System Bold Italic" size="26.0" />
+        </font>
+    </Text>
+    <ImageView fitHeight="207.0" fitWidth="384.0" layoutX="24.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="@images/logo.jpg" />
+    </ImageView>
+    <Text layoutX="14.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Location: Near Dhaka University">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Text>
+    <Text layoutX="26.0" layoutY="307.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Branches: Gazipur, Uttara, Airport, Dhanmondi">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Text>
+    <!-- Use Hyperlink for the website link -->
+    <Hyperlink fx:id="websiteLink" layoutX="38.0" layoutY="343.0" text="https://www.fakewebsite.com/OnlineSuperMarket" />
+   <ImageView fitHeight="207.0" fitWidth="198.0" layoutX="373.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@images/image_mh.jpg" />
+      </image>
+   </ImageView>
+   <Text layoutX="373.0" layoutY="272.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mehedi Hasan, CEO">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Text>
+</AnchorPane>

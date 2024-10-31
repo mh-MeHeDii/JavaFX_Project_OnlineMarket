@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="586.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.DiscountViewController">
+   <Text layoutX="150.0" layoutY="14.0" scaleX="2.0" scaleZ="7.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Discounts available for today" textAlignment="CENTER" textOrigin="CENTER" translateX="6.0" translateZ="6.0" wrappingWidth="238.69985008239746" x="20.0" y="20.0">
+      <font>
+         <Font size="18.0" />
+      </font>
+      
+      <effect>
+         <Blend />
+      </effect>
+   </Text>
+   <ChoiceBox fx:id="myChoiceBox" accessibleText="Options" layoutX="23.0" layoutY="65.0" prefHeight="37.0" prefWidth="559.0" />
+   <ImageView fitHeight="182.0" fitWidth="272.0" layoutX="335.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@images/wow.jpg" />
+      </image>
+   </ImageView>
+   <Text layoutX="305.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Check discounts from here and purchase quickly :&quot;)" textAlignment="CENTER" wrappingWidth="291.2236328125" y="65.0">
+      <font>
+         <Font name="System Italic" size="20.0" />
+      </font>
+   </Text>
+   <cursor>
+      <Cursor fx:constant="S_RESIZE" />
+   </cursor>
+</AnchorPane>
