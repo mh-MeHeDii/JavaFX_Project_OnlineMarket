@@ -39,7 +39,6 @@ public class HelloController {
     private void onHomeButtonClick() {
         openWindow("Home.fxml", "Home");
         System.out.println("You are on Home Menu");
-        //System.out.println(getClass().getResource("/images/logo.png"));
     }
 
     @FXML
